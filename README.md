@@ -123,6 +123,21 @@ Here you’ll see all our configuration of L3 switch.
 ![image](https://github.com/user-attachments/assets/5f7816a6-0c22-4a92-90ea-6fe9f1a04f90)
 ![image](https://github.com/user-attachments/assets/0a5431a3-baf5-4d1f-82ea-98a63b885c08)
 
- 
+### Default Route
+
+The default route is a route that a router uses to forward an incoming packet
+when no other route is available for that packet in the routing table.
+- When a packet arrives on an interface of a router, the router reads the
+destination network address of the incoming packet and finds that network
+address in the routing table. If the routing table contains an entry for the
+destination network, the router forwards the incoming packet from the
+interface that is written next to the destination network in the entry.
+- If the routing table does not contain an entry for the destination address,
+the router drops the incoming packet. This is the point where the concept
+of default route fits. A default route gives a route to a router to forward all
+incoming packets whose destination network addresses are not available in
+the routing table.
+- IPv4 default route: - `0.0.0.0 0.0.0.0`
+- IPv6 default route: - `::/0`
  
  
