@@ -2,7 +2,7 @@
 
 ## Objective
 
-The main objective of this lab is to give Internet access to these two networks IT-LAN and the Account-LAN for that, I need to create static route to the Firewall because it doesn't know about the `10.10.10.0/24` and `172.16.16.0/24` network because only the directly connected networks firewall will know. Each section introduces a critical component of Sophos XG Firewall administration, helping IT security professionals to gain practical knowledge and skills in key areas of firewall setup, monitoring, and management.
+The main objective of this lab was to give internet access to these two networks IT-LAN and the Accounts-LAN, for that I had to configure a default route on the L3 switch and a static route to the Sophos XG Firewall because by default it doesn't know about the `10.10.10.0/24` and `172.16.16.0/24` network because only the directly connected networks firewall will know about. Each section introduces a critical component of Sophos XG Firewall administration, helping IT security professionals to gain practical knowledge and skills in key areas of firewall setup, monitoring, and management.
 
 ### Job Skills Learned
 
